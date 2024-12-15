@@ -5,7 +5,7 @@ sudo apt update
 sudo apt install -y curl jq
 
 # Download the auto_timezone.sh script
-sudo curl -sL https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/auto_timezone.sh -o /usr/local/bin/auto_timezone.sh
+sudo curl -sL https://raw.githubusercontent.com/BrunoGrande/auto-timezone-setup/main/auto_timezone.sh -o /usr/local/bin/auto_timezone.sh
 
 # Make the script executable
 sudo chmod +x /usr/local/bin/auto_timezone.sh
